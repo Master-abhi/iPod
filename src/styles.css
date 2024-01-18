@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container{
+  background-color: grey;
+  height: 15rem;
+  width: 16.5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menu-container{
+  background-color: white;
+  height: 12rem;
+  width: 12rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+
+.select-container{
+
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.select{
+  background-image: linear-gradient(grey, rgb(75, 75, 75));
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  outline: none;
+  border: 0
+}
+
+.menu{
+  font-size: 12px;
+  margin-bottom:7.5rem;
+  position: absolute;
+  font-weight: bold;
+}
+
+.menu-container img{
+  height: 20px;
+}
+
+.foreward{
+  position: absolute;
+  margin-left: 8rem;
+
+}
+
+.backward{
+  position: absolute;
+  margin-right: 8rem;
+}
+
+.play-pause{
+  position: absolute;
+  margin-top: 8rem;
+}
+
+.display{
+  height: 12rem;
+  width: 14.5rem;
+  background-color: rgb(89, 129, 165);
+  border-radius: 5px;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  background-image: url("https://images4.alphacoders.com/132/thumbbig-1326237.webp");
+  background-size: 16.5rem 12rem;
+  background-repeat: no-repeat;
+}
+.cover-flow{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.menu-bar{
+  height: 10rem;
+  width: 8rem;
+  background-color: white;
+  border-radius: 0px 5px;
+  visibility: visible;
+  overflow: auto;
+}
+
+.menu-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.sub-menu{
+  font-size: 12px;
+  height: 25px;
+  width: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid black;
+  padding: 0px 5px;
+}
+
+.sub-menu img{
+  height: 7px;
+  position: relative;
+
+}
+
+.sub-menu:active{
+  background-color: aquamarine;
+}
+#active{
+  background-color: aquamarine;
+}
